@@ -10,7 +10,7 @@ MyTweak_FILES = Tweak.xm
 MyTweak_FRAMEWORKS = UIKit
 MyTweak_LDFLAGS += -Wl,-segalign,4000
 
-include $(THEOS)/makefiles/tweak.mk
+include $(THEOS_MAKE_PATH)/tweak.mk
 
 after-install::
-	install.exec "killall -9 SpringBoard"  # This line must start with a tab
+    install.exec "killall -9 SpringBoard"  # This line must start with a tab
