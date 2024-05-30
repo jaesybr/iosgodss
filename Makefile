@@ -3,6 +3,8 @@ TARGET = iphone:clang:latest:latest
 #CFLAGS = -fobjc-arc
 #THEOS_PACKAGE_DIR_NAME = debs
 
+THEOS_MAKE_PATH = /opt/theos/makefiles
+
 include $(THEOS_MAKE_PATH)/common.mk
 
 TWEAK_NAME = MyTweak
