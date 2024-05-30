@@ -1,3 +1,4 @@
+ARCHS = arm64
 include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = MyTweak
