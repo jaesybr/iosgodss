@@ -3,10 +3,7 @@ TARGET = iphone:clang:latest:latest
 #CFLAGS = -fobjc-arc
 #THEOS_PACKAGE_DIR_NAME = debs
 
-# Assuming THEOS is correctly defined somewhere
-THEOS = /path/to/theos
-
-include $(THEOS)/makefiles/common.mk
+include $(THEOS_MAKE_PATH)/common.mk
 
 TWEAK_NAME = MyTweak
 MyTweak_FILES = Tweak.xm
@@ -17,5 +14,3 @@ include $(THEOS)/makefiles/tweak.mk
 
 after-install::
 	install.exec "killall -9 SpringBoard"  # This line must start with a tab
-
-include $(THEOS)/makefiles/tweak.mk
