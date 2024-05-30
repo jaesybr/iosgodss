@@ -18,4 +18,4 @@ include $(THEOS)/makefiles/tweak.mk
 after-install::
 	install.exec "killall -9 SpringBoard"  # This line must start with a tab
 
-include $(THEOS)/makefiles/aggregate.mk
+include $(THEOS)/makefiles/tweak.mk
