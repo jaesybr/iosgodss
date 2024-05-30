@@ -13,4 +13,5 @@ TWEAK_NAME = @@PROJECTNAME@@
 include $(THEOS_MAKE_PATH)/tweak.mk
 
 @@KILL_RULE@@
+
 include $(THEOS_MAKE_PATH)/aggregate.mk
