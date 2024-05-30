@@ -1,10 +1,10 @@
-Package: @@PACKAGENAME@@
-Name: @@FULLPROJECTNAME@@ Cheats
+Package: com.Testdeb.con
+Name: Testing Cheats
 Depends: mobilesubstrate
 Version: 1.0.0
 Architecture: iphoneos-arm
 Description: An awesome Cydia Substrate tweak from iOSGods.com!
-Maintainer: @@USER@@
-Author: @@USER@@
+Maintainer: trap
+Author: root
 Section: Tweaks
 Homepage: http://iosgods.com
